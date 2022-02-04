@@ -9,8 +9,8 @@
       　　　　　　　　<textarea v-model="list.japan" placeholder="日本語を入力" class="areaja__textja" @keydown.enter="Enchange"></textarea>
                     </form>
                     <div class="iconarea">
-       　　　　　　　  　<button  v-if='this.username ===""'></button>
-                      <button class="save" @click="Save" v-if='this.username !==""'></button>
+       　　　　　　　  　<button class="save" @click="Save"></button>
+                      
                       <button class="toggle" @click="Change"></button>
                      </div>
      　　　　　　</div>
@@ -31,8 +31,7 @@
        　　　　　　　　    　<textarea v-model="list.english" placeholder="English" class="areaen__texten" @keydown.enter="Jachange"></textarea>
                     </form>
        　　　　　　　<div class="iconarea">
-                      <button  v-if='this.username ===""'></button>
-                      <button class="save" @click="Save" v-if='this.username !==""'></button>
+                      <button class="save" @click="Save" v-if='!this.username ===""'></button>
                       <button class="toggle" @click="Change"></button>
                    </div>
      　　　　　　</div>

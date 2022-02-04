@@ -42,34 +42,66 @@ $x2:1536px;
   }
 }
 
-.flex2, .child-flex2 > * {  //tailwindの.flexきる
-  display: flex;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
+@media screen and (min-width: 1536px){
+  .container2 {
+      max-width: 1536px;
+    }
+  }
+  @media screen and (min-width: 1280px){
+    .container2 {
+        max-width: 1280px;
+      }
+    }
+
+@media screen and (min-width: 1264px){
+.container2 {
+    max-width: 1185px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .container2 {
+      max-width: 1024px;
+    }
+  }
+
+@media screen and (min-width: 960px){
+  .container2 {
+      max-width: 900px;
+  }
 }
 
-.container2{ //tailwindの.containerきる
+@media screen and(min-width: 768px){
+  .container2 {
+    max-width: 768px
+}
+.headnav{
+    flex-direction: row;
+}
+}
+
+@media screen and(min-width: 640px){
+  .container2 {
+    max-width: 640px
+  }
+}
+
+
+
+.container {
   width: 100%;
   padding: 12px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1024px;
-  @include sm{
-    max-width: 640px;
-  }
-  @include md {
-    max-width: 768px;
-  }
-  @include lg{
-    max-width: 1024px;
-  }
-  @include x1{
-    max-width: 1280px;
-  }
-  @include x2{
-    max-width: 1536px;
-  }
+  
+}
+
+
+.container2{
+  width: 100%;
+  padding: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1185px;
 }
 
 

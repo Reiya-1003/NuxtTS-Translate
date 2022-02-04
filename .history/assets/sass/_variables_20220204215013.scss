@@ -5,73 +5,66 @@
 $color-bg: rgb(248, 255, 187);
 $laptop: 1024px;
 
-$sm:640px;
-$md:768px;
-$lg:1024px;
-$x1:1280px;
-$x2:1536px;
-
-@mixin sm {
-  @media screen and (min-width:($sm)){
-    @content;
-  }
-}
-@mixin md {
-  @media screen and (min-width:($md)){
-    @content;
-  }
-}
-@mixin lg {
-  @media screen and (min-width:($lg)){
-    @content;
-  }
-}
-@mixin x1 {
-  @media screen and (min-width:($x1)){
-    @content;
-  }
-}
-@mixin x2 {
-  @media screen and (min-width:($x2)){
-    @content;
-  }
-}
 @mixin laptop {
   @media screen and (min-width: ($laptop)) {
     @content;
   }
 }
 
-.flex2, .child-flex2 > * {  //tailwindの.flexきる
-  display: flex;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
+@media screen and (min-width: 1536px){
+  .container {
+      max-width: 1536px;
+    }
+  }
+  @media screen and (min-width: 1280px){
+    .container {
+        max-width: 1280px;
+      }
+    }
+
+@media screen and (min-width: 1264px){
+.container {
+    max-width: 1185px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .container {
+      max-width: 1024px;
+    }
+  }
+
+@media screen and (min-width: 960px){
+  .container {
+      max-width: 900px;
+  }
 }
 
-.container2{ //tailwindの.containerきる
+@media screen and(min-width: 768px){
+  .container {
+    max-width: 768px
+}
+.headnav{
+    flex-direction: row;
+}
+}
+
+@media screen and(min-width: 640px){
+  .container {
+    max-width: 640px
+  }
+}
+
+.flex, .child-flex > * {
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+
+.container {
   width: 100%;
   padding: 12px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1024px;
-  @include sm{
-    max-width: 640px;
-  }
-  @include md {
-    max-width: 768px;
-  }
-  @include lg{
-    max-width: 1024px;
-  }
-  @include x1{
-    max-width: 1280px;
-  }
-  @include x2{
-    max-width: 1536px;
-  }
 }
-
 
 // @media (min-width: 768px)
 // .md\:flex-row {
@@ -253,7 +246,16 @@ footer{
 
 }
 
+.headnav{
+  padding: 1.25rem;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 
+}
 
 
 

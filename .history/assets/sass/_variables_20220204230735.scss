@@ -42,14 +42,14 @@ $x2:1536px;
   }
 }
 
-.flex2, .child-flex2 > * {  //tailwindの.flexきる
+.flex2, .child-flex2 > * { //tailwindの.flexを切る
   display: flex;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
-}
+};
 
-.container2{ //tailwindの.containerきる
+.container2{　
   width: 100%;
   padding: 12px;
   margin-right: auto;
@@ -70,13 +70,10 @@ $x2:1536px;
   @include x2{
     max-width: 1536px;
   }
-}
+} 
 
 
-// @media (min-width: 768px)
-// .md\:flex-row {
-//     flex-direction: row;
-// } わからん
+
 
 body{
   margin: 0;

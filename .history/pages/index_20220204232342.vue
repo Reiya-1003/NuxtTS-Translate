@@ -32,7 +32,7 @@
                     </form>
        　　　　　　　<div class="iconarea">
                       <button  v-if='this.username ===""'></button>
-                      <button class="save" @click="Save" v-if='this.username !==""'></button>
+                      <button class="save" @click="Save" v-if='!this.username ===""'></button>
                       <button class="toggle" @click="Change"></button>
                    </div>
      　　　　　　</div>

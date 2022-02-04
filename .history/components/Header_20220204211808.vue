@@ -2,13 +2,13 @@
     
 
 <header class="head">
-  <div class="container2 mx-auto flex2 flex-wrap p-5 flex-col md:flex-row items-center">
+  <div class="headnav  flex flex-wrap p-5 flex-col md:flex-row items-center">
     
-    <nuxt-link to="/" class="flex2 order-first lg:order-none  title-font font-medium items-center text-gray-900  lg:justify-left  md:mb-0">
+    <nuxt-link to="/" class="flex order-first lg:order-none  title-font font-medium items-center text-gray-900  lg:justify-left  md:mb-0">
       
       <span class="title text-sm text-white">翻訳くん</span>
     </nuxt-link>
-    <div class="botanarea lg:w-2/5 flex2 lg:justify-end lg:ml-0">
+    <div class="botanarea lg:w-2/5 flex lg:justify-end lg:ml-0">
 
       <div class="username inline-flex items-center  border-0 py-1 px-3 focus:outline-none rounded text-xs md:mt-0" v-if="this.username">
            {{this.username}}
@@ -17,7 +17,7 @@
     　　</button>
       <button class="logoutbotan inline-flex items-center text-white font-bold bg-green-500 hover:bg-green-400 border-b-4 border-green-700 hover:border-green-500 focus:outline-none  rounded text-xs md:mt-0" @click="logout" v-if="this.isLogin">ログアウト
     　　</button>
-      <nav class="translink flex2 lg:w-2/5 flex-wrap items-center text-base md:ml-auto ml-3 " v-if="this.isLogin">
+      <nav class="translink flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto ml-3 " v-if="this.isLogin">
       <nuxt-link to="/save" class="hover:text-gray-900">My translation</nuxt-link>
       </nav>
 

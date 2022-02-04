@@ -42,14 +42,22 @@ $x2:1536px;
   }
 }
 
-.flex2, .child-flex2 > * {  //tailwindの.flexきる
-  display: flex;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
+
+
+
+
+
+
+.container {
+  width: 100%;
+  padding: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  
 }
 
-.container2{ //tailwindの.containerきる
+
+.container2{
   width: 100%;
   padding: 12px;
   margin-right: auto;
