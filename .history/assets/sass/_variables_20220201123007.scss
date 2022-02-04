@@ -1,0 +1,70 @@
+$color-bg: rgb(248, 255, 187);
+
+
+
+$laptop: 1024px;
+
+@mixin laptop {
+  @media screen and (min-width: ($laptop)) {
+    @content;
+  }
+}
+//  areajs からの　textjaと英語を2個作って背景色合わせる
+body{
+  margin: 0;
+  height: 0;
+}
+header{
+  height: 10vh;
+}
+main{
+  height: 80vh;
+}
+footer{
+  height: 10vh;
+}
+
+.areaja{
+  height: 40vh;
+  background-color: green;
+  &__textja{
+    width: 100%;
+    height: 30vh;
+    background-color: palegreen;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+  
+}
+
+.areaen{
+  height: 40vh;
+  background-color: grey;
+  &__texten{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    text-align: center;
+    color:  palegreen;
+    font-size: 30px;
+  }
+}
+
+.save{
+  background-color: aqua;
+    width: 8%;
+    height: 9%;
+}
+.res{
+    background-color: red;
+
+    @include laptop {
+        background-color: blue;
+        
+    }
+}
+
+.head{
+  font-size: 12px;
+}

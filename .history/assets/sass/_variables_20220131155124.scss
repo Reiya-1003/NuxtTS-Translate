@@ -1,0 +1,39 @@
+$color-bg: rgb(248, 255, 187);
+
+
+
+$laptop: 1024px;
+
+@mixin laptop {
+  @media screen and (min-width: ($laptop)) {
+    @content;
+  }
+}
+ 
+body{
+  margin: 0;
+  height: 0;
+}
+header{
+  height: 10vh;
+}
+main{
+  height: 80vh;
+}
+footer{
+  height: 10vh;
+}
+
+
+.res{
+    background-color: red;
+
+    @include laptop {
+        background-color: blue;
+        
+    }
+}
+
+.head{
+  font-size: 12px;
+}

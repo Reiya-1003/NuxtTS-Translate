@@ -1,0 +1,10 @@
+<template>
+
+  <h1>保存した内容が見れる Page</h1>
+  
+</template>
+<script>
+export default {
+  
+};
+</script>

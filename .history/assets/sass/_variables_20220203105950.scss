@@ -1,0 +1,236 @@
+$color-bg: rgb(248, 255, 187);
+
+
+
+$laptop: 1024px;
+
+@mixin laptop {
+  @media screen and (min-width: ($laptop)) {
+    @content;
+  }
+}
+//  areajs からの　textjaと英語を2個作って背景色合わせる
+body{
+  margin: 0;
+  height: 0;
+}
+header{
+  height: 10vh;
+}
+
+main{
+  height: 80vh;
+  font-family: 'Kameron';
+  @include laptop {
+    main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        }
+     }
+}
+@include laptop {
+  .mainview{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+      }
+   }
+
+footer{
+  height: 10vh;
+}
+
+.areaja{
+  height: 40vh;
+  background-color: palegreen;
+  &__textja{
+    width: 100%;
+    height: 30vh;
+    background-color: palegreen;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+  
+}
+
+.areaen{
+  height: 40vh; //ほんとは４０レスポンシブの確認で３５
+  background-color: white;
+  &__texten{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    text-align: center;
+    color:  palegreen;
+    font-size: 30px;
+  }
+}
+
+.iconarea{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.save{
+  margin-right:5%;
+  
+   
+  &::before{ //materialicon(google)はbeforをつけるみたい
+  font-family: 'Material Icons';
+  content: 'save_alt';
+  font-size: 50px;
+  color: gray;
+  margin: 0 0 1em;
+  cursor: pointer;
+	transition: all 0.1s ease 0s;
+  
+  
+  }
+  &:hover::before{
+    opacity: 0.6;
+  }
+}
+  
+
+.toggle{
+  margin-right:10%;
+  &::before{ //materialicon(google)はbeforをつけるみたい
+    font-family: 'Material Icons';
+    content: 'import_export';
+    font-size: 50px;
+    color: gray;
+    margin: 0 0 1em;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+    
+    
+    }
+    &:hover::before{
+      opacity: 0.6;
+    }
+  
+}
+
+.transpage{
+  background-color: palegreen;
+}
+.listarea{
+  &__sorce{
+    height: 60vh;
+    width: 40vh;
+    margin-left: 10%;
+    overflow-y: auto;
+    @include laptop {
+      width: 80%;
+        
+    }
+    
+  };
+  &__sorce div{
+    // color: white;
+  counter-reset:list;
+  list-style-type:none;
+  font: 14px/1.6 'arial narrow', sans-serif;
+  padding:0;
+
+  };
+  &__sorce div div{
+    color:white;
+    text-decoration: underline;
+    position:relative;
+  padding: 0 0 0 10px;
+  margin: 2px 0 2px 0px;
+  font-weight: bold;
+  font-size:14px;
+  line-height: 29px;
+  border: dashed 1px transparent;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  };
+}
+
+.username{
+  
+  @include laptop {
+    padding-top: 0;
+      
+  }
+}
+
+
+.hozontitle{
+  font-size: revert;
+  text-align: center;
+  padding: 5vh;
+  color: gray;
+  @include laptop {
+    padding-left: 15vh;
+    text-align: left;
+      
+  }
+}
+// .res{
+//     background-color: red;
+
+//     @include laptop {
+//         background-color: blue;
+        
+//     }
+// }
+
+.head{
+  font-size: 12px;
+}
+
+.title{
+  font-weight: 600;
+  @include laptop {
+  
+      font-size: x-large;
+      justify-content: space-around;
+     }
+  
+}
+
+.botanarea{
+  height: 4vh;
+  margin-top: 1vh;
+  @include laptop {
+  height: 7vh;
+    
+   }
+}
+.loginbotan{
+  padding-left: 1.75rem;
+  margin-left: 0;
+    height: 4vh;
+  
+  @include laptop {
+    
+      
+     }
+}
+.logoutbotan{
+  padding-left: 1.75rem;
+  margin-left: 2vh;
+  @include laptop {
+    height: 6vh;
+      
+     }
+}
+
+.translink{
+  margin-left: 2vh;
+  @include laptop {
+    font-size: larger;
+    height: 87%;
+    padding-left: 20px;
+      
+     }
+}
+
