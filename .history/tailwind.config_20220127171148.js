@@ -1,8 +1,5 @@
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ['./pages/**/*.{js,ts,jsx,tsx,vue}', './components/**/*.{js,ts,jsx,tsx,vue}'], // ココ
-  },
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},

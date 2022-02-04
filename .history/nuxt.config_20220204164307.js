@@ -9,9 +9,9 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
   head: {
-    title: '翻訳君 in Nuxt.js&TS',
+    title: 'Nuxt-ts-App',
     htmlAttrs: {
-      lang: 'ja'
+      lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },

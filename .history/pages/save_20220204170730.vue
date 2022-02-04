@@ -24,11 +24,15 @@ import VirtualList from 'vue-virtual-scroll-list' //ここのインポートエ�
 
 const db = firebase.firestore()
 
-
+interface SaveInfo{ //data()の型定義
+  username: string | number,
+  items:string | number | never[],
+  itemComponent:any //コンポーネントの型定義はとばす
+}
 
 export default {
   name: 'root',
-data(){
+data():SaveInfo{
   return{
   items:[], //datasources
   username:"",
@@ -44,7 +48,7 @@ components:{
 },
 
 created(){
-  let self =this  
+  let self:any =this
   const db = firebase.firestore()
   firebase.auth().onAuthStateChanged(function(user) {
       if (user) {　//ログインしていたら
