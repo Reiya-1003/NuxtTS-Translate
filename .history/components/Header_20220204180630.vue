@@ -6,7 +6,7 @@
     
     <nuxt-link to="/" class="flex order-first lg:order-none  title-font font-medium items-center text-gray-900  lg:justify-left  md:mb-0">
       
-      <span class="title text-sm text-black">翻訳くん</span>
+      <span class="text-sm text-black">翻訳くん</span>
     </nuxt-link>
     <div class="botanarea lg:w-2/5 flex lg:justify-end lg:ml-0">
 
