@@ -1,9 +1,11 @@
 # ページ概要
+<img width="1439" alt="スクリーンショット 2022-04-01 17 09 04" src="https://user-images.githubusercontent.com/80142183/161222977-92240704-9618-4537-9060-70c3f0ac9f5e.png">
+<img width="391" alt="スクリーンショット 2022-04-01 17 10 23" src="https://user-images.githubusercontent.com/80142183/161222983-d3019d01-c6f7-43ad-aeea-b5f2b4f1ee15.png">
 
 
 
 
-リンク先：https://portforio-reru.vercel.app/
+リンク先：https://ttanslateproject-98752.firebaseapp.com/
 
 # 使用言語
 * React.js  17.0.2
