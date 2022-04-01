@@ -28,6 +28,9 @@
 
 # 機能面
 ## 翻訳機能
+<img width="1440" alt="スクリーンショット 2022-04-01 17 31 30" src="https://user-images.githubusercontent.com/80142183/161226668-467a2f2a-de73-4a4e-a121-2c6f01764597.png">
+<img width="968" alt="スクリーンショット 2022-04-01 17 23 06" src="https://user-images.githubusercontent.com/80142183/161226672-d38cd4df-6998-41ed-b7cd-8b3dc4569c35.png">
+<img width="1440" alt="スクリーンショット 2022-04-01 17 30 56" src="https://user-images.githubusercontent.com/80142183/161226679-df7c5f82-c14b-421c-975d-5ca8fd593e35.png">
 
 
 ・主にアニメーションをつけるのに役立つ。
