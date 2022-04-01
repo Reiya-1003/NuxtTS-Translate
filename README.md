@@ -11,25 +11,24 @@
 * Nuxt.js 2.15.8  
 * Vue.js  2.6.14
 * FireBase  9.16.0
+* GoogleAppScript
 * Sass
 
 
 # アーキテクチャ
 　　
-  
-![DjangoReact](https://user-images.githubusercontent.com/80142183/161189075-116b06de-9a0b-4755-98ac-f1fdfb1b8222.jpg)
+  <img width="968" alt="スクリーンショット 2022-04-01 17 23 06" src="https://user-images.githubusercontent.com/80142183/161225037-b560599f-35a6-4099-9031-06c1ce554abc.png">
+
   
 # デプロイ
-* フロントエンド　→ Vercel
-* バックエンド　→ pythonanywhere
-* cors → heroku (axiosでfetchする際にリクエストエラーが起きるため必要)
+* FireBaseCLIによるデプロイ
 
 
 
 
 # 機能面
-## Sassによるページデザイン
-<img width="894" alt="スクリーンショット 2022-04-01 14 24 47" src="https://user-images.githubusercontent.com/80142183/161200484-2b96ce03-37ab-4f0b-8b49-91e170cca958.png">
+## 翻訳機能
+
 
 ・主にアニメーションをつけるのに役立つ。
 
