@@ -30,9 +30,10 @@
 ## 翻訳機能
 <img width="1440" alt="スクリーンショット 2022-04-01 17 31 30" src="https://user-images.githubusercontent.com/80142183/161226668-467a2f2a-de73-4a4e-a121-2c6f01764597.png">
 <img width="1440" alt="スクリーンショット 2022-04-01 17 30 56" src="https://user-images.githubusercontent.com/80142183/161226679-df7c5f82-c14b-421c-975d-5ca8fd593e35.png">
+<img width="585" alt="スクリーンショット 2022-04-01 17 32 35" src="https://user-images.githubusercontent.com/80142183/161226882-31393edd-fd2f-4536-ab92-6485d419315b.png">
 
+* 
 
-・主にアニメーションをつけるのに役立つ。
 
 
 
