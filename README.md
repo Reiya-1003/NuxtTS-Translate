@@ -8,12 +8,11 @@
 リンク先：https://ttanslateproject-98752.firebaseapp.com/
 
 # 使用言語
-* React.js  17.0.2
-* Python  3.9
-* Django  3.1.2
-* django rest_framework
-* cors 
-* sqlite3
+* Nuxt.js 2.15.8  
+* Vue.js  2.6.14
+* FireBase  9.16.0
+* Sass
+
 
 # アーキテクチャ
 　　
