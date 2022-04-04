@@ -34,15 +34,15 @@
 
 * 日本語→英語・英語→日本語に翻訳をする。
 * 翻訳機能はGoogleAppScriptで作成。GASに搭載されている関数を使用してAPIでデータの送受信を行なっており、Json形式で返却されます。
-* 
 
 
 
 
 
 
-## react-scrollを使用したスクロール機能
-<img width="599" alt="スクリーンショット 2022-04-01 14 26 00" src="https://user-images.githubusercontent.com/80142183/161200498-723a52d9-dbff-446d-9741-0d6f3b9f57fe.png">
+
+## 保存機能
+
 
 ・ページをリッチにするための工夫
 ## django rest_frameworkによるバックエンド管理・REST APIサービスの利用（PRACTICE部分）
