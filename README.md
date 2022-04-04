@@ -30,9 +30,12 @@
 
 
 ## 保存機能
+<img width="1440" alt="スクリーンショット 2022-04-04 10 25 40" src="https://user-images.githubusercontent.com/80142183/161459445-2c35068b-81df-4655-818f-ffbda1a0cd02.png">
+* Googleアカウントによるログイン・ログアウト機能
+* アカウントによって表示されるデータが違うようにアカウントごとにIDをランダムで与えて区別する。
 
 
-## 翻訳機能
+## ログイン機能
 <img width="1440" alt="スクリーンショット 2022-04-01 17 31 30" src="https://user-images.githubusercontent.com/80142183/161226668-467a2f2a-de73-4a4e-a121-2c6f01764597.png">
 <img width="1440" alt="スクリーンショット 2022-04-01 17 30 56" src="https://user-images.githubusercontent.com/80142183/161226679-df7c5f82-c14b-421c-975d-5ca8fd593e35.png">
 <img width="585" alt="スクリーンショット 2022-04-01 17 32 35" src="https://user-images.githubusercontent.com/80142183/161226882-31393edd-fd2f-4536-ab92-6485d419315b.png">
@@ -56,11 +59,8 @@
 
 
 
-## django rest_frameworkによるバックエンド管理・REST APIサービスの利用（PRACTICE部分）
-<img width="702" alt="スクリーンショット 2022-04-01 14 32 59" src="https://user-images.githubusercontent.com/80142183/161201287-61d5f53e-7f56-475e-a1c8-c05711c87aaf.png">
-<img width="1306" alt="スクリーンショット 2022-04-01 14 34 06" src="https://user-images.githubusercontent.com/80142183/161201292-2712d354-a9cd-44cb-88ad-36e777cf1919.png">
-・画像内”https://glacial-castle-98127.herokuapp.com/”
-　　部分はリクエストエラー回避のためのプロキシサーバー
+## 削除機能
+
 
 
 # 今後
