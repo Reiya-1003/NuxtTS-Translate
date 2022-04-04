@@ -43,6 +43,8 @@
 
 ## 保存機能
 <img width="1440" alt="スクリーンショット 2022-04-04 9 58 48" src="https://user-images.githubusercontent.com/80142183/161458957-c07adea3-81ad-49c2-a925-920a9814bbe6.png">
+<img width="1440" alt="スクリーンショット 2022-04-04 9 59 24" src="https://user-images.githubusercontent.com/80142183/161459176-0e292468-a9fd-4990-a875-5bdc429fc958.png">
+<img width="1440" alt="スクリーンショット 2022-04-04 10 21 31" src="https://user-images.githubusercontent.com/80142183/161459181-d145d0e0-9994-45c4-afec-d085eb28c75c.png">
 * 保存ボタンを押すことで保存ができる。
 * ログインしている場合のみで、ログアウトしている場合保存ボタン・保存ページは出現しない。
 
