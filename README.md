@@ -32,7 +32,11 @@
 <img width="1440" alt="スクリーンショット 2022-04-01 17 30 56" src="https://user-images.githubusercontent.com/80142183/161226679-df7c5f82-c14b-421c-975d-5ca8fd593e35.png">
 <img width="585" alt="スクリーンショット 2022-04-01 17 32 35" src="https://user-images.githubusercontent.com/80142183/161226882-31393edd-fd2f-4536-ab92-6485d419315b.png">
 
+* 日本語→英語・英語→日本語に翻訳をする。
+* 翻訳機能はGoogleAppScriptで作成。GASに搭載されている関数を使用してAPIでデータの送受信を行なっており、Json形式で返却されます。
 * 
+
+
 
 
 
