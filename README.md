@@ -27,6 +27,11 @@
 
 
 # 機能面
+
+
+## 保存機能
+
+
 ## 翻訳機能
 <img width="1440" alt="スクリーンショット 2022-04-01 17 31 30" src="https://user-images.githubusercontent.com/80142183/161226668-467a2f2a-de73-4a4e-a121-2c6f01764597.png">
 <img width="1440" alt="スクリーンショット 2022-04-01 17 30 56" src="https://user-images.githubusercontent.com/80142183/161226679-df7c5f82-c14b-421c-975d-5ca8fd593e35.png">
@@ -45,11 +50,12 @@
 <img width="1440" alt="スクリーンショット 2022-04-04 9 58 48" src="https://user-images.githubusercontent.com/80142183/161458957-c07adea3-81ad-49c2-a925-920a9814bbe6.png">
 <img width="1440" alt="スクリーンショット 2022-04-04 9 59 24" src="https://user-images.githubusercontent.com/80142183/161459176-0e292468-a9fd-4990-a875-5bdc429fc958.png">
 <img width="1440" alt="スクリーンショット 2022-04-04 10 21 31" src="https://user-images.githubusercontent.com/80142183/161459181-d145d0e0-9994-45c4-afec-d085eb28c75c.png">
+
 * 保存ボタンを押すことで保存ができる。
 * ログインしている場合のみで、ログアウトしている場合保存ボタン・保存ページは出現しない。
 
 
-・ページをリッチにするための工夫
+
 ## django rest_frameworkによるバックエンド管理・REST APIサービスの利用（PRACTICE部分）
 <img width="702" alt="スクリーンショット 2022-04-01 14 32 59" src="https://user-images.githubusercontent.com/80142183/161201287-61d5f53e-7f56-475e-a1c8-c05711c87aaf.png">
 <img width="1306" alt="スクリーンショット 2022-04-01 14 34 06" src="https://user-images.githubusercontent.com/80142183/161201292-2712d354-a9cd-44cb-88ad-36e777cf1919.png">
