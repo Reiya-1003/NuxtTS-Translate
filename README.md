@@ -10,7 +10,7 @@
 # 使用言語
 * Nuxt.js 2.15.8  
 * Vue.js  2.6.14
-* TypeScript
+* TypeScript　 4.3.5
 * FireBase  9.16.0
 * GoogleAppScript
 * Sass
