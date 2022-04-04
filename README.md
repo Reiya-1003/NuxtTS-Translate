@@ -7,7 +7,7 @@
 
 リンク先：https://ttanslateproject-98752.firebaseapp.com/
 
-# 使用言語
+## 使用言語
 * Nuxt.js 2.15.8  
 * Vue.js  2.6.14
 * TypeScript　 4.3.5
@@ -16,21 +16,21 @@
 * Sass
 
 
-# アーキテクチャ
+## アーキテクチャ
 　　
   <img width="968" alt="スクリーンショット 2022-04-01 17 23 06" src="https://user-images.githubusercontent.com/80142183/161225037-b560599f-35a6-4099-9031-06c1ce554abc.png">
 
   
-# デプロイ
+## デプロイ
 * FireBaseCLIによるデプロイ
 
 
 
 
-# 機能面
+## 機能面
 
 
-## ログイン機能
+### ログイン機能
 <img width="1440" alt="スクリーンショット 2022-04-04 10 25 40" src="https://user-images.githubusercontent.com/80142183/161459445-2c35068b-81df-4655-818f-ffbda1a0cd02.png">
 
 
@@ -41,7 +41,7 @@
 
 
 
-## 翻訳機能
+### 翻訳機能
 <img width="1440" alt="スクリーンショット 2022-04-01 17 31 30" src="https://user-images.githubusercontent.com/80142183/161226668-467a2f2a-de73-4a4e-a121-2c6f01764597.png">
 <img width="1440" alt="スクリーンショット 2022-04-01 17 30 56" src="https://user-images.githubusercontent.com/80142183/161226679-df7c5f82-c14b-421c-975d-5ca8fd593e35.png">
 <img width="585" alt="スクリーンショット 2022-04-01 17 32 35" src="https://user-images.githubusercontent.com/80142183/161226882-31393edd-fd2f-4536-ab92-6485d419315b.png">
@@ -55,7 +55,7 @@
 
 
 
-## 保存機能
+### 保存機能
 <img width="1440" alt="スクリーンショット 2022-04-04 9 58 48" src="https://user-images.githubusercontent.com/80142183/161458957-c07adea3-81ad-49c2-a925-920a9814bbe6.png">
 <img width="1440" alt="スクリーンショット 2022-04-04 9 59 24" src="https://user-images.githubusercontent.com/80142183/161459176-0e292468-a9fd-4990-a875-5bdc429fc958.png">
 <img width="1440" alt="スクリーンショット 2022-04-04 10 21 31" src="https://user-images.githubusercontent.com/80142183/161459181-d145d0e0-9994-45c4-afec-d085eb28c75c.png">
@@ -65,7 +65,7 @@
 
 
 
-## 削除機能
+### 削除機能
 <img width="1440" alt="スクリーンショット 2022-04-04 10 28 38" src="https://user-images.githubusercontent.com/80142183/161459684-11fb4b95-386e-4be6-b221-817411f0790b.png">
 <img width="1440" alt="スクリーンショット 2022-04-04 10 28 53" src="https://user-images.githubusercontent.com/80142183/161459690-28c5788a-b60b-4e57-ba86-16e88b310edc.png">
 
