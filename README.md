@@ -29,13 +29,15 @@
 # 機能面
 
 
-## 保存機能
+## ログイン機能
 <img width="1440" alt="スクリーンショット 2022-04-04 10 25 40" src="https://user-images.githubusercontent.com/80142183/161459445-2c35068b-81df-4655-818f-ffbda1a0cd02.png">
-* Googleアカウントによるログイン・ログアウト機能
+* Googleアカウントによるログイン・ログアウト機能。
 * アカウントによって表示されるデータが違うようにアカウントごとにIDをランダムで与えて区別する。
 
 
-## ログイン機能
+
+
+## 翻訳機能
 <img width="1440" alt="スクリーンショット 2022-04-01 17 31 30" src="https://user-images.githubusercontent.com/80142183/161226668-467a2f2a-de73-4a4e-a121-2c6f01764597.png">
 <img width="1440" alt="スクリーンショット 2022-04-01 17 30 56" src="https://user-images.githubusercontent.com/80142183/161226679-df7c5f82-c14b-421c-975d-5ca8fd593e35.png">
 <img width="585" alt="スクリーンショット 2022-04-01 17 32 35" src="https://user-images.githubusercontent.com/80142183/161226882-31393edd-fd2f-4536-ab92-6485d419315b.png">
@@ -60,11 +62,21 @@
 
 
 ## 削除機能
+<img width="1440" alt="スクリーンショット 2022-04-04 10 28 38" src="https://user-images.githubusercontent.com/80142183/161459684-11fb4b95-386e-4be6-b221-817411f0790b.png">
+<img width="1440" alt="スクリーンショット 2022-04-04 10 28 53" src="https://user-images.githubusercontent.com/80142183/161459690-28c5788a-b60b-4e57-ba86-16e88b310edc.png">
+
+* ×印をクリックするとデータベースからもフロント側からもリロード無しで削除。
 
 
 
-# 今後
-デザイン・機能含めアップデートを予定。今後開発や経験が増えていくにつれ、当ページもアップデートしていく。
+
+
+## 今後
+* 今回、Nuxt.jsの使用と、レスポンシブデザインの実装を中心に行なったため、バックエンドはFireBaseとなった。
+* Vue.jsの復習にもなり、レスポンシブデザインを実装する際のイメージを養うことができた。
+* 普段エラー文をいちいちgoogle翻訳で翻訳していたので、個人的にも保存できる機能を有効に使いたい。
+* Vue.jsと相性の良いテスト方法を模索する。
+
 
 
 
